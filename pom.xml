@@ -38,4 +38,15 @@
 		</plugins>
 	</build>
 
+	
+	<distributionManagement>
+		<repository>
+			<id>szkolenie-release</id>
+			<url>http://10.222.20.201:8081/repository/mvn-nexus-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>szkolenie</id>
+			<url>http://10.222.20.201:8081/repository/mvn-nexus-snaps/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
